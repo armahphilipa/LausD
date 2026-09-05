@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48" fill="none">
+  <rect x="1" y="1" width="198" height="46" rx="8" fill="#333533" stroke="#FFEE32" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <g transform="translate(14, 12)">
+    <rect width="24" height="24" rx="4" fill="#202020" stroke="#FFEE32" stroke-width="1"/>
+    <circle cx="8" cy="8" r="2.5" fill="#FFEE32"/>
+    <path d="M4 19L9.5 13.5L14 18L17.5 14.5L20 17V20H4V19Z" fill="#FFEE32" opacity="0.8"/>
+  </g>
+  <text x="48" y="29" fill="#FFEE32" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1">LOGO PLACEHOLDER</text>
+</svg>
