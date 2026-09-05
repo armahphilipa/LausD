@@ -24,7 +24,7 @@ export const FloatingActions: React.FC = () => {
 
       {/* WhatsApp Floating Trigger */}
       <a
-        href="https://wa.me/233000000000"
+        href="https://wa.me/447898010522"
         id="float-whatsapp-btn"
         target="_blank"
         rel="noopener noreferrer"

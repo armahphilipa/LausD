@@ -45,8 +45,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPartnerModal }) => {
             className={`flex items-center justify-between transition-all duration-300 rounded-full px-5 py-3 ${
               isLight
                 ? isScrolled
-                  ? 'bg-white/95 backdrop-blur-md border border-slate-200 shadow-md shadow-slate-900/5 text-slate-900'
-                  : 'bg-white/80 backdrop-blur-md border border-slate-200/80 shadow-sm text-slate-900'
+                  ? 'bg-white/95 backdrop-blur-md border border-neutral-200 shadow-md shadow-black/5 text-[#202020]'
+                  : 'bg-white/90 backdrop-blur-md border border-neutral-200/90 shadow-sm text-[#202020]'
                 : isScrolled
                 ? 'bg-[#202020]/90 backdrop-blur-md border border-[#333533] shadow-xl text-[#D6D6D6]'
                 : 'bg-transparent text-[#D6D6D6]'
@@ -76,7 +76,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPartnerModal }) => {
                   id={`nav-link-${link.label.toLowerCase()}`}
                   className={`relative py-1 transition-colors after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#FFEE32] hover:after:w-full after:transition-all after:duration-300 ${
                     isLight
-                      ? 'text-slate-600 hover:text-slate-950 font-semibold'
+                      ? 'text-[#333533] hover:text-[#202020] font-semibold'
                       : 'text-[#D6D6D6]/80 hover:text-[#FFEE32]'
                   }`}
                 >
@@ -108,7 +108,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPartnerModal }) => {
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className={`p-2 rounded-full border transition-colors focus:outline-none ${
                   isLight
-                    ? 'border-slate-200 text-slate-800 hover:bg-slate-100'
+                    ? 'border-neutral-200 text-[#202020] hover:bg-neutral-100'
                     : 'border-white/20 text-[#D6D6D6] hover:bg-white/10'
                 }`}
                 aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
@@ -125,7 +125,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPartnerModal }) => {
         id="mobile-drawer"
         className={`fixed inset-0 backdrop-blur-xl z-[199] flex flex-col items-center justify-center transition-all duration-300 md:hidden ${
           isLight
-            ? 'bg-white/98 text-slate-900'
+            ? 'bg-white/98 text-[#202020]'
             : 'bg-[#202020]/98 text-[#D6D6D6]'
         } ${
           isMobileMenuOpen
@@ -139,7 +139,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPartnerModal }) => {
           onClick={() => setIsMobileMenuOpen(false)}
           className={`absolute top-6 right-6 p-3 rounded-full border transition-colors ${
             isLight
-              ? 'text-slate-800 hover:text-black border-slate-200 hover:bg-slate-100'
+              ? 'text-[#202020] hover:text-black border-neutral-200 hover:bg-neutral-100'
               : 'text-[#D6D6D6]/80 hover:text-white border-white/10 hover:bg-white/10'
           }`}
           aria-label="Close menu"
@@ -164,7 +164,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPartnerModal }) => {
 
           <nav
             className={`flex flex-col gap-4 text-xl font-display font-medium mt-1 ${
-              isLight ? 'text-slate-800' : 'text-[#D6D6D6]/90'
+              isLight ? 'text-[#202020]' : 'text-[#D6D6D6]/90'
             }`}
           >
             {navLinks.map((link) => (
@@ -174,7 +174,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPartnerModal }) => {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className={`py-1 transition-colors ${
                   isLight
-                    ? 'hover:text-[#92400E] font-semibold'
+                    ? 'hover:text-[#202020] hover:bg-[#FFEE32]/20 rounded-lg px-3 font-semibold'
                     : 'hover:text-[#FFEE32]'
                 }`}
               >

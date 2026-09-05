@@ -69,9 +69,6 @@ export const ServicesBento: React.FC = () => {
 
               <div className="relative z-10">
                 <div className="flex items-center justify-between mb-5">
-                  <div className="p-3 rounded-2xl bg-[#202020] border border-[#333533]">
-                    {getIcon(coreService.iconName, true)}
-                  </div>
                   {coreService.tag && (
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-[#FFEE32]/15 text-[#FFEE32] border border-[#FFEE32]/30">
                       {coreService.tag}
@@ -133,9 +130,6 @@ export const ServicesBento: React.FC = () => {
               >
                 <div>
                   <div className="flex items-center justify-between mb-4">
-                    <div className="p-2.5 rounded-2xl bg-[#202020] w-fit border border-[#333533]">
-                      {getIcon(service.iconName, false)}
-                    </div>
                     <span className="text-[11px] font-semibold text-[#FFEE32] uppercase tracking-wider">
                       {service.id === 'waterproofing' ? 'Structural Barrier' : service.id === 'marine-repair' ? 'Marine Transport' : 'Technical Supervision'}
                     </span>

@@ -33,7 +33,7 @@ export const MarketOpportunity: React.FC = () => {
 
           <div className="lg:col-span-5">
             <p className="text-base sm:text-lg text-[#D6D6D6]/80 leading-relaxed">
-              Ghana's inland waterways, fishing communities, and coastal transport networks create sustained demand for durable marine repair materials — with no local producer of marine fairing compounds yet serving it.
+              Ghana's inland waterways, fishing communities, and coastal transport networks create sustained demand for durable marine repair materials with no local producer of marine fairing compounds yet serving it.
             </p>
           </div>
         </motion.div>

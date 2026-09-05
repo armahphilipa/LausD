@@ -256,7 +256,7 @@ export const partnershipPillars = [
 export const teamData: TeamMember[] = [
   {
     id: 'kennedy-boakye',
-    name: 'Kennedy Boakye',
+    name: 'Kenneth Boakye Duodo',
     role: 'Founder & Technical Director',
     image: '/images/kennedy-boakye.jpg',
     isFounder: true,

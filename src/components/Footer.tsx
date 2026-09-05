@@ -1,7 +1,11 @@
 import React from 'react';
 import { ArrowUp } from 'lucide-react';
+import { useTheme } from '../context/ThemeContext';
 
 export const Footer: React.FC = () => {
+  const { isLight } = useTheme();
+  const logoSrc = isLight ? '/logo-placeholder-light.svg' : '/logo-placeholder.svg';
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -18,7 +22,7 @@ export const Footer: React.FC = () => {
               aria-label="Laus Deo Consult Home"
             >
               <img
-                src="/logo-placeholder.svg"
+                src={logoSrc}
                 alt="Laus Deo Consult Logo"
                 className="h-10 w-auto object-contain max-w-[200px]"
                 referrerPolicy="no-referrer"
@@ -26,7 +30,7 @@ export const Footer: React.FC = () => {
             </a>
 
             <p className="text-xs sm:text-sm text-[#D6D6D6]/65 max-w-sm leading-relaxed">
-              Industrial coatings, waterproofing, boat & canoe repair, and construction consultancy — built on UK technical standards, applied nationwide across Ghana since 2017.
+              Industrial coatings, waterproofing, boat & canoe repair, and construction consultancy built on UK technical standards, applied nationwide across Ghana since 2017.
             </p>
 
             <div className="pt-2">

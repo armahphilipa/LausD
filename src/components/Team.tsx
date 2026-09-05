@@ -68,7 +68,7 @@ export const Team: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            className="bg-[#333533] border border-[#FFEE32]/40 hover:border-[#FFEE32]/70 rounded-3xl p-6 sm:p-10 lg:p-12 shadow-2xl relative overflow-hidden transition-all duration-300 group"
+            className="bg-[#333533] rounded-3xl p-6 sm:p-10 lg:p-12 shadow-2xl relative overflow-hidden transition-all duration-300 group"
           >
             {/* Corner Decorative Accent */}
             <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-[#FFEE32]/10 to-transparent pointer-events-none rounded-bl-full" />
@@ -76,7 +76,7 @@ export const Team: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
               {/* Founder Photo & Quick Badges */}
               <div className="lg:col-span-5 flex flex-col items-center sm:items-start text-center sm:text-left">
-                <div className="relative w-56 h-56 sm:w-64 sm:h-64 rounded-3xl overflow-hidden border-2 border-[#FFEE32]/50 shadow-xl bg-[#202020] mb-6">
+                <div className="relative w-56 h-56 sm:w-64 sm:h-64 rounded-3xl overflow-hidden shadow-l bg-[#202020] mb-6">
                   <img
                     src={founder.image}
                     alt={founder.name}

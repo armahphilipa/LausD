@@ -120,15 +120,15 @@ export const PartnershipSection: React.FC = () => {
               <div className="space-y-3 text-xs sm:text-sm text-[#D6D6D6]/80">
                 <div className="flex items-center gap-3">
                   <MapPin className="w-4 h-4 text-[#FFEE32] shrink-0" />
-                  <span>Accra, Ghana (Nationwide & Sub-regional operations)</span>
+                  <span>Takoradi, Ghana (Nationwide & Sub-regional operations)</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-[#FFEE32] shrink-0" />
-                  <span>partnerships@lausdeoconsult.com</span>
+                  <span>kendudxp@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-[#FFEE32] shrink-0" />
-                  <span>+233 (0) 50 000 0000 / UK Office Liaison Available</span>
+                  <span>+44 (0) 78 9801 0522 / UK Office Liaison Available</span>
                 </div>
               </div>
             </div>

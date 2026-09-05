@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48" fill="none">
-  <rect x="1" y="1" width="198" height="46" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="1" y="1" width="198" height="46" rx="8" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
   <g transform="translate(14, 12)">
-    <rect width="24" height="24" rx="4" fill="#FFEE32" stroke="#FACC15" stroke-width="1"/>
-    <circle cx="8" cy="8" r="2.5" fill="#0F172A"/>
-    <path d="M4 19L9.5 13.5L14 18L17.5 14.5L20 17V20H4V19Z" fill="#0F172A" opacity="0.85"/>
+    <rect width="24" height="24" rx="4" fill="#FFEE32" stroke="#E5D020" stroke-width="1"/>
+    <circle cx="8" cy="8" r="2.5" fill="#202020"/>
+    <path d="M4 19L9.5 13.5L14 18L17.5 14.5L20 17V20H4V19Z" fill="#202020" opacity="0.9"/>
   </g>
-  <text x="48" y="29" fill="#0F172A" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1">LAUS DEO CONSULT</text>
+  <text x="48" y="29" fill="#202020" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1">LAUS DEO CONSULT</text>
 </svg>
